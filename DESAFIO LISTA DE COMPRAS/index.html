@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="container">
+            <img src="./assets/logo.svg" alt="">
+        </header>
+        <main class="container">
+            <section class="backPage">
+                <a href="#"><img src="./assets/BackButton.svg" alt=""></a>
+            </section>
+
+            <section class="submit">
+                <h1>Compras da Semana</h1>
+
+                <form action="">
+                    <input type="text" placeholder="Adicione um novo item" id="inputText">
+                    <button type="submit">Adicionar item</button>
+                </form>
+
+                <section class="list">
+                    <nav>
+                        <ul></ul>
+                    </nav>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <img src="./assets/alertIcon.svg" alt=""><p>O item foi removido da lista</p><img src="./assets/ExitIcon.svg" alt="">
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
